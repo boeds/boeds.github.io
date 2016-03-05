@@ -38,14 +38,34 @@
     <meta name="msapplication-TileImage" content="/ms-icon-144x144.png" />
     <meta name="theme-color" content="#ffffff" />
     <link href="https://fonts.googleapis.com/css?family=Lily+Script+One" rel="stylesheet" type="text/css" />
+    <style type="text/css">
+        .logo {
+            -ms-interpolation-mode: bicubic;
+            border: 0;
+            width: 300px;
+        }
+
+        .instagram {
+            -ms-interpolation-mode: bicubic;
+            border: 0;
+            width: 60px;
+        }
+
+        .main {
+            font-family: Lily Script One;
+            font-size: x-large;
+            margin-top: 50px;
+            text-align: center;
+        }
+    </style>
 </head>
 <body>
-    <div style="font-family: Lily Script One; font-size: x-large;margin-top: 50px;text-align: center;">
-        <img src="logo.jpg" border="0" alt="Boeds.nl logo" />
+    <div class="main">
+        <img src="logo.jpg" alt="Boeds.nl logo" class="logo" />
         <p>Coming soon!</p>
         <p>Dé webshop met unieke accessoires voor iedereen en voor elke gelegenheid!</p>
         <p>Follow us on Instagram @boeds.nl</p>
-        <a href="https://www.instagram.com/boeds.nl"><img src="instagram.png" alt="Follow us on Instagram"/></a>
+        <a href="https://www.instagram.com/boeds.nl"><img src="instagram.png" alt="Follow us on Instagram @boeds.nl" class="instagram" /></a>
     </div>
 </body>
 </html>
